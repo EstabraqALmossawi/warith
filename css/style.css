@@ -1,0 +1,160 @@
+a{
+  text-decoration: none;
+
+}
+a:hover{
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color:#fff;
+  cursor: pointer;
+}
+p{
+  line-height: 1.5;
+}
+.font-latef{
+  font-family: 'Lateef';
+  font-weight: 400;
+  color: #FDEEDC;
+  font-size: 2rem;
+
+}
+
+
+.btn {
+  width: 120px;
+    border-radius: 50px;
+    margin-bottom: 4px;
+    border: 1px solid ;
+    background-color: #FFD8A9;
+
+  }
+
+/*services*/
+.containerr {
+  position : relative;
+  align-items : center;
+  justify-content : center;
+  flex-warp : warp;
+  padding : 30px;
+}
+
+.containerr .card {
+  position: relative;
+  max-width : 280px;
+  height : 215px;
+  background-color :#FDEEDC;
+  margin : 30px 10px;
+  padding : 20px 15px;
+  display : flex;
+  flex-direction : column;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  transition : 0.3s ease-in-out;
+  border-radius : 15px;
+}
+.containerr .card:hover {
+  height : 320px;
+}
+
+
+.containerr .card .image {
+  position : relative;
+  width : 260px;
+  height : 260px;
+  top : -40%;
+  left: 8px;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.3);
+  z-index : 1;
+}
+
+.containerr .card .image img {
+  max-width : 100%;
+  border-radius: 20px;
+}
+
+.containerr .card .content {
+  position : relative;
+  top : -140px;
+  padding : 10px 15px;
+  color : #111;
+  text-align : center;
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.3s ease-in-out;
+
+}
+
+.containerr .card:hover .content {
+   margin-top : 30px;
+   visibility : visible;
+   opacity : 1;
+   transition-delay: 0.2s;
+
+}
+
+/*info section*/
+.card2
+{
+  width: 18rem;
+  background-color: #FDEEDC;
+  margin : 30px 10px;
+  padding : 20px 15px;
+  text-align : center;
+  display : flex;
+  flex-direction : column;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  border-radius : 15px;
+}
+
+.btn-ci{
+width: 180px;
+margin-right: 35px;
+}
+
+
+
+
+
+
+/* news section*/
+
+.news-div article {
+  text-align: center;
+  margin-bottom: 37px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .news-div article {
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .news-div article {
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.news-div article a img {
+  width : 250px;
+  height : 250px;
+  max-width : 100%;
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.news-div article a:hover img {
+  opacity: .4;
+}
+.news-div article .news-meta {
+  font-size: 16px;
+  color: #999999;
+  margin-bottom: 30px;
+  display: block;
+}
